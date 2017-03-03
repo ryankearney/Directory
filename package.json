@@ -1,0 +1,23 @@
+{
+  "name": "directory",
+  "version": "1.0.0",
+  "description": "Phone Directory",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryankearney/Directory.git"
+  },
+  "keywords": [
+    "phone",
+    "directory"
+  ],
+  "author": "Ryan Kearney <Ryan@Kearney.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryankearney/Directory/issues"
+  },
+  "homepage": "https://github.com/ryankearney/Directory#readme"
+}
