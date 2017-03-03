@@ -4,7 +4,7 @@
   "description": "Phone Directory",
   "scripts": {
     "start": "node ./bin/www",
-    "test": "mocha"
+    "test": "istanbul cover _mocha"
   },
   "repository": "git+https://github.com/ryankearney/Directory.git",
   "keywords": [
@@ -28,6 +28,8 @@
     "serve-favicon": "~2.3.2"
   },
   "devDependencies": {
+    "coveralls": "^2.11.16",
+    "istanbul": "^0.4.5",
     "mocha": "^3.2.0"
   }
 }
