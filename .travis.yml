@@ -3,5 +3,9 @@ node_js:
   - "node"
   - "iojs"
   - "6"
+matrix:
+  include:
+  - node_js: "iojs"
+    install: npm install
 cache:
   yarn: true
