@@ -1,5 +1,24 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .container-fluid
+    .row
+      .col
+        table.table.table-striped.table-responsive
+          thead.thead-inverse
+            tr
+              th Last
+              th First
+              th Title
+              th Department
+              th Extension
+              th Phone
+          tbody
+            each user in users
+              tr
+                td #{user.sn}
+                td #{user.givenName}
+                td #{user.title}
+                td #{user.department}
+                td #{user.ipPhone}
+                td #{user.telephoneNumber}

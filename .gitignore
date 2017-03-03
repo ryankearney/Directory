@@ -1,6 +1,9 @@
 # MacOS Garbage
 .DS_Store
 
+# Secrets
+config.js
+
 # Logs
 logs
 *.log
