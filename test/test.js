@@ -1,4 +1,5 @@
 var assert = require('assert');
+var app = require('../app.js');
 
 describe('Build', function() {
   describe('Test', function() {
